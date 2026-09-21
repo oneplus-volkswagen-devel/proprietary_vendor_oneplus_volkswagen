@@ -743,6 +743,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/volkswagen/proprietary/odm/etc/display/qdcm_calib_data_AA610_P_3_A0034_dsc_video_mode_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_AA610_P_3_A0034_dsc_video_mode_panel.json \
     vendor/oneplus/volkswagen/proprietary/odm/etc/init/init.camera_process.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_process.rc \
     vendor/oneplus/volkswagen/proprietary/odm/etc/init/init.camera_upate.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_upate.rc \
+    vendor/oneplus/volkswagen/proprietary/odm/etc/init/init.touchDaemon.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.touchDaemon.rc \
     vendor/oneplus/volkswagen/proprietary/odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-touch-V2-service.rc \
     vendor/oneplus/volkswagen/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/oneplus/volkswagen/proprietary/odm/etc/lra_model_0.conf:$(TARGET_COPY_OUT_ODM)/etc/lra_model_0.conf \
@@ -1067,6 +1068,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/volkswagen/proprietary/vendor/firmware/vpu33_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v_unsigned.mbn \
     vendor/oneplus/volkswagen/proprietary/vendor/firmware/vpu35_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu35_4v.mbn \
     vendor/oneplus/volkswagen/proprietary/vendor/firmware/vpu35_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu35_4v_unsigned.mbn \
+    vendor/oneplus/volkswagen/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
+    vendor/oneplus/volkswagen/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
+    vendor/oneplus/volkswagen/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
+    vendor/oneplus/volkswagen/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
     vendor/oneplus/volkswagen/proprietary/vendor/lib64/camera/bitmlconfig.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/bitmlconfig.bin \
     vendor/oneplus/volkswagen/proprietary/vendor/lib64/camera/bitmlconfig_sm7550.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/bitmlconfig_sm7550.bin \
     vendor/oneplus/volkswagen/proprietary/vendor/lib64/camera/camxfl115indices.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/camxfl115indices.bin \
@@ -1383,6 +1388,12 @@ PRODUCT_PACKAGES += \
     sensors.qsh \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
+    libQnnHtp.aiframe \
+    libQnnHtpPrepare.aiframe \
+    libQnnSystem.aiframe \
+    libaiboost_qnn_external_delegate \
+    libqcom_llm \
+    libtransformer_lite \
     com.qti.sensor.vwInFront \
     com.qti.sensor.vwInMain \
     com.qti.sensor.vwInWide \
@@ -1438,6 +1449,12 @@ PRODUCT_PACKAGES += \
     libOplusPDCore \
     libOpo_awb \
     libPDParamParser \
+    libQnnCpu \
+    libQnnGpu \
+    libQnnHtp \
+    libQnnHtpPrepare \
+    libQnnSaver \
+    libQnnSystem \
     libRedeyeReduce \
     libSpecRecon \
     libSuperRaw \
@@ -1446,6 +1463,10 @@ PRODUCT_PACKAGES += \
     lib_rectify \
     libaecCustom \
     libai_perception_scene_detect \
+    libaiboost \
+    libaiboost_llm \
+    libaiboost_qnn_external_delegate_te \
+    libaiboost_te \
     libaisal \
     libaisd \
     libaisd_fullfov \
@@ -1516,6 +1537,7 @@ PRODUCT_PACKAGES += \
     libsharebuffer \
     libsharebuffer_impl \
     libssd_det \
+    libtensorflowlite_oplus \
     libtrace \
     libvega_common \
     libvega_face \
@@ -1530,7 +1552,11 @@ PRODUCT_PACKAGES += \
     odm_lib_rfsa_adsp_libQnnHtpV73_so \
     odm_lib_rfsa_adsp_libQnnHtpV73Skel_so \
     odm_lib_rfsa_adsp_libQnnSaver_so \
+    odm_lib_rfsa_adsp_libSuperRawPost_skel_so \
+    odm_lib_rfsa_adsp_libarc_gk_pt_hvx_skel_so \
     odm_lib_rfsa_adsp_libarc_htp_driver_skel_so \
+    odm_lib_rfsa_adsp_libhvxFaceBeautyPre_skel_so \
+    odm_lib_rfsa_adsp_libktveffect_so \
     odm_lib_rfsa_adsp_libtfadsp_sb5_5_rx_so \
     odm_lib_rfsa_adsp_libtfadsp_sb5_5_tx_so \
     vendor.qti.camera.aon-impl.xml \
@@ -1539,7 +1565,9 @@ PRODUCT_PACKAGES += \
     manifest_oplus_camera_rfi.xml \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_sendextcamcmd.xml \
+    manifest_touch_aidl.xml \
     vendor.oplus.camera.aon-impl.xml \
     vendor.qti.camera.provider-service_64 \
     vendor-oplus-hardware-touch-V2-hbp5-service \
-    vendor.oplus.hardware.cammidasservice-V1-service
+    vendor.oplus.hardware.cammidasservice-V1-service \
+    touchDaemon
