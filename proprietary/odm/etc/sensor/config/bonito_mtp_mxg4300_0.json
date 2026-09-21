@@ -1,0 +1,202 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP", "Surf", "RCM", "QRD", "HDK"],
+    "soc_id": ["655", "694"]
+  },
+  "mxg4300_0":{
+    "owner": "sns_mxg4300",
+    ".mag":{
+      "owner": "sns_mxg4300",
+      ".config":{
+        "owner": "sns_mxg4300",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      },
+      ".config_2":{
+        "owner": "sns_mxg4300",
+        "corr_mat_dual_enable":{ "type": "int", "ver": "0",
+          "data": "1"
+        }
+      }
+    }
+  },
+  "mxg4300_0_platform":{
+    "owner": "sns_mxg4300",
+    ".config":{
+      "owner": "sns_mxg4300",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "12"
+      },
+      "i3c_address":{ "type": "int", "ver": "0",
+         "data": "30"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+      "data": "0"
+      }
+    },
+    ".orient":{
+      "owner": "sns_mxg4300",
+      "x":{ "type": "str", "ver": "2",
+        "data": "+y"
+      },
+      "y":{ "type": "str", "ver": "2",
+        "data": "+x"
+      },
+      "z":{ "type": "str", "ver": "2",
+        "data": "-z"
+      }
+    },
+    ".corr_mat1":{
+          "owner": "sns_mxg4300",
+          "0_0":{ "type": "flt", "ver": "3",
+            "data": "0.965759"
+          },
+          "0_1":{ "type": "flt", "ver": "3",
+            "data": "0.100130"
+          },
+          "0_2":{ "type": "flt", "ver": "3",
+            "data": "-0.007088"
+          },
+          "1_0":{ "type": "flt", "ver": "3",
+            "data": "0.107102"
+          },
+          "1_1":{ "type": "flt", "ver": "3",
+            "data": "0.958662"
+          },
+          "1_2":{ "type": "flt", "ver": "3",
+            "data": "-0.040467"
+          },
+          "2_0":{ "type": "flt", "ver": "3",
+            "data": "0.052945"
+          },
+          "2_1":{ "type": "flt", "ver": "3",
+            "data": "0.007924"
+          },
+          "2_2":{ "type": "flt", "ver": "3",
+            "data": "1.095009"
+          }
+    },
+    ".mag":{
+      "owner": "sns_mxg4300",
+      ".fac_cal":{
+        "owner": "sns_mxg4300",
+        ".corr_mat":{
+          "owner": "sns_mxg4300",
+          "0_0":{ "type": "flt", "ver": "3",
+            "data": "0.976531"
+          },
+          "0_1":{ "type": "flt", "ver": "3",
+            "data": "0.114650"
+          },
+          "0_2":{ "type": "flt", "ver": "3",
+            "data": "-0.010573"
+          },
+          "1_0":{ "type": "flt", "ver": "3",
+            "data": "0.145876"
+          },
+          "1_1":{ "type": "flt", "ver": "3",
+            "data": "0.932447"
+          },
+          "1_2":{ "type": "flt", "ver": "3",
+            "data": "-0.043198"
+          },
+          "2_0":{ "type": "flt", "ver": "3",
+            "data": "0.082041"
+          },
+          "2_1":{ "type": "flt", "ver": "3",
+            "data": "-0.042592"
+          },
+          "2_2":{ "type": "flt", "ver": "3",
+            "data": "1.098305"
+          }
+        },
+        ".bias":{
+          "owner": "sns_mxg4300",
+          "x":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+          "y":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+          "z":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          }
+        }
+      }
+    },
+    ".placement":{
+      "owner": "sns_mxg4300",
+      "0":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "1":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "2":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "3":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "4":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "5":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "6":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "7":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "8":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "9":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "10":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "11":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      }
+    }
+  }
+}

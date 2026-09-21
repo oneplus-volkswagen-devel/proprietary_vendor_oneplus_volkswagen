@@ -1,0 +1,33 @@
+#
+# Automatically generated file. DO NOT MODIFY
+#
+
+AB_OTA_PARTITIONS += \
+    abl \
+    aop \
+    aop_config \
+    bluetooth \
+    cpucp \
+    cpucp_dtb \
+    devcfg \
+    dsp \
+    engineering_cdt \
+    featenabler \
+    hyp \
+    imagefv \
+    keymaster \
+    modem \
+    oplus_sec \
+    pvmfw \
+    qupfw \
+    shrm \
+    soccp_dcd \
+    soccp_debug \
+    splash \
+    spuservice \
+    tz \
+    uefi \
+    uefisecapp \
+    xbl \
+    xbl_config \
+    xbl_ramdump

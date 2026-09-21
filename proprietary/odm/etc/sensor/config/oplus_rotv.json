@@ -1,0 +1,15 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Surf", "RCM", "QRD", "HDK"],
+    "soc_id": ["655", "694"]
+  },
+    "oplus_rotv_platform":{
+        "owner": "oplus_rotv",
+        ".config":{
+            "owner": "oplus_rotv",
+            "is_available":{ "type": "int", "ver": "0",
+                "data": "1"
+            }
+        }
+    }
+}
