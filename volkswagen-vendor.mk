@@ -887,6 +887,14 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/volkswagen/proprietary/vendor/etc/display/sdm_display_resolution_extn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/sdm_display_resolution_extn.xml \
     vendor/oneplus/volkswagen/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/oneplus/volkswagen/proprietary/vendor/etc/ltm_config_AA610_P_3_A0034_dsc_video_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AA610_P_3_A0034_dsc_video_mode_panel.xml \
+    vendor/oneplus/volkswagen/proprietary/vendor/etc/media_codecs_performance_tuna_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_tuna_v0.xml \
+    vendor/oneplus/volkswagen/proprietary/vendor/etc/media_codecs_performance_tuna_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_tuna_v1.xml \
+    vendor/oneplus/volkswagen/proprietary/vendor/etc/media_codecs_tuna_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_tuna_v0.xml \
+    vendor/oneplus/volkswagen/proprietary/vendor/etc/media_codecs_tuna_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_tuna_v1.xml \
+    vendor/oneplus/volkswagen/proprietary/vendor/etc/media_profiles_tuna_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_tuna_v0.xml \
+    vendor/oneplus/volkswagen/proprietary/vendor/etc/media_profiles_tuna_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_tuna_v1.xml \
+    vendor/oneplus/volkswagen/proprietary/vendor/etc/media_tuna_v0/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_tuna_v0/video_system_specs.json \
+    vendor/oneplus/volkswagen/proprietary/vendor/etc/media_tuna_v1/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_tuna_v1/video_system_specs.json \
     vendor/oneplus/volkswagen/proprietary/vendor/etc/sensors/config/bonito_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bonito_bu52053nvx_0.json \
     vendor/oneplus/volkswagen/proprietary/vendor/etc/sensors/config/bonito_ccd_base.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bonito_ccd_base.json \
     vendor/oneplus/volkswagen/proprietary/vendor/etc/sensors/config/bonito_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bonito_default_sensors.json \
