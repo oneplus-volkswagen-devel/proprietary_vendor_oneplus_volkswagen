@@ -741,6 +741,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/volkswagen/proprietary/odm/etc/camera/wide_inv_padding_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide_inv_padding_mapxy_33x25.bin \
     vendor/oneplus/volkswagen/proprietary/odm/etc/camera/wide_padding_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide_padding_mapxy_33x25.bin \
     vendor/oneplus/volkswagen/proprietary/odm/etc/display/qdcm_calib_data_AA610_P_3_A0034_dsc_video_mode_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_AA610_P_3_A0034_dsc_video_mode_panel.json \
+    vendor/oneplus/volkswagen/proprietary/odm/etc/horae/horae_target.conf:$(TARGET_COPY_OUT_ODM)/etc/horae/horae_target.conf \
     vendor/oneplus/volkswagen/proprietary/odm/etc/init/init.camera_process.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_process.rc \
     vendor/oneplus/volkswagen/proprietary/odm/etc/init/init.camera_upate.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_upate.rc \
     vendor/oneplus/volkswagen/proprietary/odm/etc/init/init.touchDaemon.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.touchDaemon.rc \
