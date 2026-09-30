@@ -841,6 +841,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/volkswagen/proprietary/odm/firmware/tp/vw/vnd_touch_project_config.xml:$(TARGET_COPY_OUT_ODM)/firmware/tp/vw/vnd_touch_project_config.xml \
     vendor/oneplus/volkswagen/proprietary/odm/firmware/tp/vw/vnd_touch_scene_config_main.xml:$(TARGET_COPY_OUT_ODM)/firmware/tp/vw/vnd_touch_scene_config_main.xml \
     vendor/oneplus/volkswagen/proprietary/odm/firmware/tp/vw/vnd_tp_fw_main.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/vw/vnd_tp_fw_main.bin \
+    vendor/oneplus/volkswagen/proprietary/odm/firmware/uff_face.b00:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b00 \
+    vendor/oneplus/volkswagen/proprietary/odm/firmware/uff_face.b01:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b01 \
+    vendor/oneplus/volkswagen/proprietary/odm/firmware/uff_face.b02:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b02 \
+    vendor/oneplus/volkswagen/proprietary/odm/firmware/uff_face.b03:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b03 \
+    vendor/oneplus/volkswagen/proprietary/odm/firmware/uff_face.b04:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b04 \
+    vendor/oneplus/volkswagen/proprietary/odm/firmware/uff_face.b05:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b05 \
+    vendor/oneplus/volkswagen/proprietary/odm/firmware/uff_face.b06:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b06 \
+    vendor/oneplus/volkswagen/proprietary/odm/firmware/uff_face.b07:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b07 \
+    vendor/oneplus/volkswagen/proprietary/odm/firmware/uff_face.b08:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b08 \
+    vendor/oneplus/volkswagen/proprietary/odm/firmware/uff_face.mdt:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.mdt \
     vendor/oneplus/volkswagen/proprietary/odm/firmware/uff_jv.b00:$(TARGET_COPY_OUT_ODM)/firmware/uff_jv.b00 \
     vendor/oneplus/volkswagen/proprietary/odm/firmware/uff_jv.b01:$(TARGET_COPY_OUT_ODM)/firmware/uff_jv.b01 \
     vendor/oneplus/volkswagen/proprietary/odm/firmware/uff_jv.b02:$(TARGET_COPY_OUT_ODM)/firmware/uff_jv.b02 \
@@ -1545,6 +1555,7 @@ PRODUCT_PACKAGES += \
     libsharebuffer \
     libsharebuffer_impl \
     libssd_det \
+    libstfaceunlockocl_uff \
     libtensorflowlite_oplus \
     libtrace \
     libvega_common \
