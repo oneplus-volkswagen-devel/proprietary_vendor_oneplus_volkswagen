@@ -1588,6 +1588,8 @@ PRODUCT_PACKAGES += \
     manifest_touch_aidl.xml \
     vendor.oplus.camera.aon-impl.xml \
     vendor.qti.camera.provider-service_64 \
+    init.kernel.post_boot-tuna \
+    init.kernel.post_boot-tuna_default_2_3_2_1 \
     vendor-oplus-hardware-touch-V2-hbp5-service \
     vendor.oplus.hardware.cammidasservice-V1-service \
     touchDaemon

@@ -15463,6 +15463,22 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
+sh_binary {
+    name: "init.kernel.post_boot-tuna",
+    owner: "oneplus",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna.sh",
+    filename: "init.kernel.post_boot-tuna.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-tuna_default_2_3_2_1",
+    owner: "oneplus",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_default_2_3_2_1.sh",
+    filename: "init.kernel.post_boot-tuna_default_2_3_2_1.sh",
+    soc_specific: true,
+}
+
 cc_prebuilt_binary {
     name: "vendor-oplus-hardware-touch-V2-hbp5-service",
     owner: "oneplus",
