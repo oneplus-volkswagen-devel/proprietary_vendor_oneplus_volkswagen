@@ -893,6 +893,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/volkswagen/proprietary/odm/lib64/camera/libafCustomParam_Cam2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libafCustomParam_Cam2.bin \
     vendor/oneplus/volkswagen/proprietary/odm/lib64/camera/libpdCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam0.bin \
     vendor/oneplus/volkswagen/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
+    vendor/oneplus/volkswagen/proprietary/system/etc/permissions/com.qualcomm.qti.Performance.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.Performance.xml \
+    vendor/oneplus/volkswagen/proprietary/system/etc/permissions/com.qualcomm.qti.UxPerformance.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.UxPerformance.xml \
+    vendor/oneplus/volkswagen/proprietary/system_ext/etc/init/perfservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/perfservice.rc \
+    vendor/oneplus/volkswagen/proprietary/system_ext/etc/perf/scaler_params.pb:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf/scaler_params.pb \
+    vendor/oneplus/volkswagen/proprietary/system_ext/etc/perf/wlc_model.tflite:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf/wlc_model.tflite \
+    vendor/oneplus/volkswagen/proprietary/system_ext/etc/seccomp_policy/perfservice.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/perfservice.policy \
     vendor/oneplus/volkswagen/proprietary/vendor/etc/acdbdata/tuna_mtp/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/tuna_mtp/acdb_cal.acdb \
     vendor/oneplus/volkswagen/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
     vendor/oneplus/volkswagen/proprietary/vendor/etc/display/sdm_display_resolution_extn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/sdm_display_resolution_extn.xml \
@@ -1132,6 +1138,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/volkswagen/proprietary/vendor/lib64/camera/qfdserviceconfig.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/qfdserviceconfig.bin
 
 PRODUCT_PACKAGES += \
+    vendor.qti.MemHal-V1-ndk \
+    vendor.qti.hardware.perf2-V1-ndk_system \
     com.qti.eeprom.gt24p128c2csli_imx766 \
     com.qti.eeprom.gt24p128e2csli_s5kjn1 \
     com.qti.eeprom.irs2381c_polar \
@@ -1407,6 +1415,26 @@ PRODUCT_PACKAGES += \
     sensors.qsh \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
+    libbeluga \
+    libcomposerextn.qti \
+    libdolphin \
+    liblayerext.qti \
+    libpenguin \
+    libpenguin_impl \
+    libqspm-mem-utils \
+    libqti-MemHal-client-system \
+    libqti-at \
+    libqti-iopd-client_system \
+    libqti-perfd-client_system \
+    libqti_performance \
+    libqti_workloadclassifiermodel \
+    libskewknob_system \
+    libsmomoconfig.qti \
+    vendor.qti.hardware.iop@2.0 \
+    vendor.qti.hardware.limits@1.0 \
+    vendor.qti.hardware.limits@1.1 \
+    vendor.qti.qspmhal-V1-ndk_system \
+    vendor.qti.qspmhal@1.0 \
     libQnnHtp.aiframe \
     libQnnHtpPrepare.aiframe \
     libQnnSystem.aiframe \
@@ -1579,6 +1607,11 @@ PRODUCT_PACKAGES += \
     odm_lib_rfsa_adsp_libktveffect_so \
     odm_lib_rfsa_adsp_libtfadsp_sb5_5_rx_so \
     odm_lib_rfsa_adsp_libtfadsp_sb5_5_tx_so \
+    PowerSaveMode \
+    workloadclassifier \
+    QPerformance \
+    QXPerformance \
+    UxPerformance \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.provider.xml \
@@ -1590,6 +1623,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.camera.provider-service_64 \
     init.kernel.post_boot-tuna \
     init.kernel.post_boot-tuna_default_2_3_2_1 \
+    perfservice \
     vendor-oplus-hardware-touch-V2-hbp5-service \
     vendor.oplus.hardware.cammidasservice-V1-service \
     touchDaemon
